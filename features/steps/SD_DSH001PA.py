@@ -43,7 +43,25 @@ def step_impl(context, valor):
     gerenciador = GerenciadorLancamentos(context)
     gerenciador.cadastro_lancamento_tela(valor)
 
-@then('valide os detalhes do total de caixa/banco')
+@given('eu clico no card Caixa / Banco')
 def step_impl(context):
-    gerenciador = GerenciadorDashboard(context)
-    gerenciador.validar_detalhes_cxaban()
+    context.gerenciador = GerenciadorDashboard(context) # 'context.' é porque precisa guardar a mesma variavel self.dados_capturados entre as funções acesso_detalhes_caixabanco() e validar_tabela_cxabanco()
+    context.gerenciador.acesso_detalhes_caixabanco()
+
+@then('valido os resumos superiores da tela de detalhes:')
+def step_impl(context):
+    linha = context.table[0] 
+    
+    caixa_esp = linha['total_caixa']
+    banco_esp = linha['total_banco']
+    geral_esp = linha['total_geral']
+
+    gerenciador: GerenciadorDashboard = context.gerenciador
+    
+    gerenciador.validar_detalhes_cxaban(caixa_esp, banco_esp, geral_esp)
+
+@then('valido que os seguintes saldos aparecem no grid:')
+def step_impl(context):
+
+    gerenciador: GerenciadorDashboard = context.gerenciador
+    gerenciador.validar_tabela_cxabanco(context.table)

@@ -90,10 +90,13 @@ class ComponentesDashboard:
         try:
             idx_caixa = linhas.index("Total Caixa")
             dados_detalhados["resumos"]["total_caixa"] = linhas[idx_caixa + 1]
+
             idx_banco = linhas.index("Nosso saldo hoje - Banco") # Nâo conciliado
-            dados_detalhados["resumos"]["total_caixa"] = linhas[idx_banco + 1]
+            dados_detalhados["resumos"]["nosso_saldo_banco"] = linhas[idx_banco + 1]
+
             idx_total = linhas.index("Total", idx_banco) # Procura palavra "Total" depois do saldo do banco
-            dados_detalhados["resumos"]["total_geral"] = linhas[idx_total + 1]
+            dados_detalhados["resumos"]["total_geral"] = linhas[idx_total + 1] # Total caixa + banco
+
             idx_inicio_tabela = linhas.index("Saldo caixa ▲▼") + 1
 
             idx_fim_tabela = 0
