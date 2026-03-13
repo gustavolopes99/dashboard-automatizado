@@ -1,13 +1,34 @@
+import os
+import sys
 from pages.PO_CXA002CA import ComponentesCXA002CA
+from objects.OBJ_CXA002CA import Lancamentos
+from services.ConfiguracoesBase import session, engine, Base
 
 class GerenciadorLancamentos:
     def __init__(self, context):
         self.context = context
-        self.manipular_tela = ManipularTela(self.context.app)
+        self.manipular_dados = ManipularDados()
+        if hasattr(context, 'app'):
+            self.manipular_tela = ManipularTela(self.context.app)
+        else:
+            self.manipular_tela = None
     
     def cadastro_lancamento_tela(self, valor):
         self.manipular_tela.cadastrar_lancamento(valor)
-    
+
+    def cadastro_lancamento_banco(self, historico, valordh, valorch):
+        self.manipular_dados.insercao_lancamento_banco(historico, valordh, valorch)
+
+class ManipularDados:
+
+    def insercao_lancamento_banco(self, historico, valordh, valorch):
+        dados = Lancamentos()
+        dados.tcxalancamento.valordh = valordh
+        dados.tcxalancamento.valorch = valorch
+        dados.tcxalancamento.historico = historico
+        session.add(dados.tcxalancamento)
+        session.commit()
+
 class ManipularTela:
     def __init__(self, app):
         self.app = app

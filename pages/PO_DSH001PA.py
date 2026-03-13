@@ -1,7 +1,9 @@
-import pyperclip
 import time
-import pyautogui
-import re
+from pywinauto.application import Application
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import os
+from decimal import Decimal
 
 class ComponentesDashboard:
     def __init__(self, app):
@@ -10,104 +12,150 @@ class ComponentesDashboard:
     @property
     def janela_principal(self):
         return self.app.top_window()
-    
-    @property
-    def tela_dre(self):
-        return self.app.top_window()
-    
-    @property
-    def botao_dre(self):
-        return self.tela_dre.child_window(title="DRE")
         
     @property
     def tela_dashboard(self):
         return self.janela_principal.child_window(title="DashBoard", found_index=0)
     
-    def extrair_texto_bruto(self):
-        tela = self.tela_dashboard
-        tela.set_focus()
-        time.sleep(1)
-
-        pyperclip.copy('')
-
-        largura_tela, altura_tela = pyautogui.size()
-        pyautogui.click(x=largura_tela/2, y=altura_tela/2)
+    def coletar_dados_html_retorno(self, nomearquivo):
+        dsh001pa = self.app.window(title_re=".*DashBoard.*") # Ajuste o titulo da sua janela
+        dsh001pa.right_click_input()
         time.sleep(0.5)
-
-        pyautogui.hotkey('ctrl', 'a')
-        time.sleep(0.5)
-        pyautogui.hotkey('ctrl', 'c')
-        time.sleep(1)
         
-        return pyperclip.paste()
+        dsh001pa.type_keys("{DOWN 10}{ENTER}") # Desce o cursor até 'Exibir código-fonte'
+        time.sleep(5) # Espera o Bloco de Notas abrir
+        
+        notepad = Application(backend="win32").connect(class_name="Notepad")
+        window_notepad = notepad.window(class_name="Notepad")
+        html_capturado = window_notepad.Edit.window_text() # Leitura do conteúdo do HTML
+        window_notepad.close()
+        print('HTML lido')
+
+        self.caminho_arquivo = os.path.abspath(nomearquivo)
+        with open(self.caminho_arquivo, "w", encoding="utf-8") as arquivo:
+            arquivo.write(html_capturado)
     
-    def obter_dados_caixa_banco(self):
-        texto_bruto = self.extrair_texto_bruto()
+    def obter_valor_elemento(self, elementos):
+        opcoes = webdriver.ChromeOptions()
+        opcoes.add_argument("--headless")
+        driver = webdriver.Chrome(options=opcoes)
 
-        linhas = texto_bruto.splitlines() # Separar o texto gigante em uma lista
+        driver.get(f"file:///{self.caminho_arquivo}")
+
+        valores_extraidos = {}
+
+        for valor, xpath in elementos.items():
+            try:
+                valor_elemento = driver.find_element(By.XPATH, xpath).text.strip()
+                
+                valores_extraidos[valor] = valor_elemento
+
+            except Exception as e:
+                print(f"falha {e}")
         
-        linhas = [linha.strip() for linha in linhas if linha.strip() != ""] # Limpar espaços em branco e remover linhas vazias
-        
-        dados_mapeados = {
-            "caixa": None,
-            "banco": None,
-            "total": None
-        }
+        driver.quit()
 
-        try: 
-            index_card = linhas.index("Caixa / Banco") # Encontra em qual linha (índice) está o título do Card
-            
-            dados_mapeados["caixa"] = linhas[index_card + 1]
-            dados_mapeados["banco"] = linhas[index_card + 3]
-            # Procura a linha que começa com "Total:" logo após o título do card
-            for i in range(index_card, index_card + 5):
-                if linhas[i].startswith("Total:"):
-                    padrao_dinheiro = r'\d{1,3}(?:\.\d{3})*,\d{2}'
-                    resultado = re.search(padrao_dinheiro, linhas[i])
-
-                    if resultado:
-                        valor_corrigido = resultado.group(0)
-                        dados_mapeados["total"] = valor_corrigido
-                    else:
-                        dados_mapeados["total"] = '0,00'
-                    break
-
-        except ValueError:
-            print("Erro: O card 'Caixa / Banco' não foi encontrado no texto copiado.")
-            
-        return dados_mapeados
+        return valores_extraidos
     
-    def acessar_detalhes_caixa_banco(self):
-        texto_detalhado = self.extrair_texto_bruto()
-        linhas = texto_detalhado.splitlines()
-        linhas = [linha.strip() for linha in linhas if linha.strip() != ""]
+    def obter_linha_grid_cxaban(self):
+        opcoes = webdriver.ChromeOptions()
+        opcoes.add_argument("--headless")
+        driver = webdriver.Chrome(options=opcoes)
 
-        dados_detalhados = {
-            "resumos": {},
-            "grid": []
-        }
+        driver.get(f"file:///{self.caminho_arquivo}")
+        xpath_linhas = f'//*[@id="tbgwebchart"]/tbody/tr'
 
+        linhas_da_tabela = driver.find_elements(By.XPATH, xpath_linhas)
+
+        dados_extraidos = {}
+
+        for linha in linhas_da_tabela:
+            colunas = linha.find_elements(By.XPATH, "./td | ./th")
+        
+            if len(colunas) > 0:
+                valor = colunas[2].get_attribute("textContent").strip()
+
+                valores_da_linha = []
+
+                for col in colunas[1:]:
+                    texto_coluna = col.get_attribute("textContent").strip() or "-"
+                    valores_da_linha.append(texto_coluna)
+                
+                dados_extraidos[valor] = valores_da_linha
+        driver.quit()
+
+        return dados_extraidos
+    
+
+    
+    def obter_valores_grafico_financeiro(self):
+        opcoes = webdriver.ChromeOptions()
+        opcoes.add_argument("--headless")
+        driver = webdriver.Chrome(options=opcoes)
+
+        driver.get(f"file:///{self.caminho_arquivo}")
+
+        valores_grafico = []
         try:
-            idx_caixa = linhas.index("Total Caixa")
-            dados_detalhados["resumos"]["total_caixa"] = linhas[idx_caixa + 1]
+            script_js = """
+                        var instancias = Chart.instances;
+                        for (var key in instancias) {
+                            if (instancias[key].chart.canvas.id === 'greceber') {
+                                return instancias[key].data.datasets[0].data;
+                            }
+                        }
+                        return null;
+                        """
+            valores = driver.execute_script(script_js)
 
-            idx_banco = linhas.index("Nosso saldo hoje - Banco") # Nâo conciliado
-            dados_detalhados["resumos"]["nosso_saldo_banco"] = linhas[idx_banco + 1]
+            if valores:
+                valores_grafico = [str(Decimal(str(v)).quantize(Decimal('0.00'))).replace('.', ',') for v in valores]
+        except Exception as e:
+            print(f"Falha ao obter gráfico {e}")
+        finally:
+            driver.quit()
+        return valores_grafico
+    
+    def obter_linha_grid_receber(self):
+        opcoes = webdriver.ChromeOptions()
+        opcoes.add_argument("--headless")
+        driver = webdriver.Chrome(options=opcoes)
 
-            idx_total = linhas.index("Total", idx_banco) # Procura palavra "Total" depois do saldo do banco
-            dados_detalhados["resumos"]["total_geral"] = linhas[idx_total + 1] # Total caixa + banco
+        driver.get(f"file:///{self.caminho_arquivo}")
+        xpath_linhas = f'//*[@id="tbgwebchart"]/tbody/tr'
 
-            idx_inicio_tabela = linhas.index("Saldo caixa ▲▼") + 1
+        linhas_da_tabela = driver.find_elements(By.XPATH, xpath_linhas)
 
-            idx_fim_tabela = 0
-            for i, linha in enumerate(linhas):
-                if linha.startswith("Mostrando de"):
-                    idx_fim_tabela = i
-                    break
+        total_capital = Decimal('0.00')
+        total_juros = Decimal('0.00')
+        total_multa = Decimal('0.00')
+        total_geral = Decimal('0.00')
 
-            if idx_fim_tabela > 0:
-                dados_detalhados["grid"] = linhas[idx_inicio_tabela:idx_fim_tabela]
+        for linha in linhas_da_tabela:
+            colunas = linha.find_elements(By.XPATH, "./td")
 
-        except ValueError as e:
-            print(f"Erro ao encontrar os elementos na tela detalhada: {e}")
-        return dados_detalhados
+            if len(colunas) > 0:
+                texto_capital = colunas[8].get_attribute("textContent").strip()
+                texto_juros = colunas[9].get_attribute("textContent").strip()
+                texto_multa = colunas[10].get_attribute("textContent").strip()
+                texto_geral = colunas[11].get_attribute("textContent").strip()
+
+                valor_cap = Decimal(texto_capital.replace('.', '').replace(',', '.'))
+                valor_jur = Decimal(texto_juros.replace('.', '').replace(',', '.'))
+                valor_mul = Decimal(texto_multa.replace('.', '').replace(',', '.'))
+                valor_ger = Decimal(texto_geral.replace('.', '').replace(',', '.'))
+
+                total_capital += valor_cap
+                total_juros += valor_jur
+                total_multa += valor_mul
+                total_geral += valor_ger
+        
+        driver.quit()
+
+        return {
+            "soma_capital": total_capital,
+            "soma_juros": total_juros,
+            "soma_multa": total_multa,
+            "soma_geral": total_geral
+        }
+                

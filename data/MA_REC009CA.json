@@ -1,0 +1,9 @@
+{
+	"TRECTIPOCLIENTE": {
+		"gid": 1,
+		"descr_tipo": "PADRAO",
+		"replicado": 0,
+		"ativo": 1,
+		"cod_tipo": "01"
+	}
+}

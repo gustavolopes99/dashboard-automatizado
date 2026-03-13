@@ -1,0 +1,12 @@
+{
+	"TIPO_DE_DOCUMENTO_000":{
+		"TRECTIPODOCUMENTO": {
+			"descricao" : "RECIBO",
+			"abreviatura" : "RCB",
+			"usuario" : "SUPERVISOR",
+			"codigoagrup" : null,
+			"codigocc" : null,
+			"cartao" : null
+		}
+	}
+}

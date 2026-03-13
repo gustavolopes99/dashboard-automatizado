@@ -1,14 +1,46 @@
 from pages.PO_BAN004CA import ComponentesBAN004CA
-import time
+from objects.OBJ_BAN004CA import Movimento
+from services.ConfiguracoesBase import session, engine, Base
 
 class GerenciadorMovimentos:
     def __init__(self, context):
         self.context = context
-        self.manipular_tela = ManipularTela(self.context.app)
+        self.manipular_dados = ManipularDados()
+        if hasattr(context, 'app'):
+            self.manipular_tela = ManipularTela(self.context.app)
+        else:
+            self.manipular_tela = None
     
-    def cadastro_movimento_tela(self, valor):
-        self.manipular_tela.cadastrar_movimento(valor)
+    def cadastrar_movimento_tela(self, valor):
+        self.manipular_tela.cadastro_movimento(valor)
     
+    def cadastrar_movimento_banco_conciliado(self, conta, valor, operacao):
+        self.manipular_dados.cadastro_movimento_banco_conciliado(conta, valor, operacao)
+
+    def cadastrar_movimento_banco_nao_conciliado(self, conta, valor, operacao):
+        self.manipular_dados.cadastro_movimento_banco_nao_conciliado(conta, valor, operacao)
+class ManipularDados:
+    
+    def cadastro_movimento_banco_conciliado(self, conta, valor, operacao):
+        dados = Movimento()
+        dados.tbanmovimento.conciliacao = 'NOW' # data de hoje
+        dados.tbanmovimento.conciliado = 'S'
+        dados.tbanmovimento.conta = conta
+        dados.tbanmovimento.valor = valor
+        dados.tbanmovimento.valordisponivel = valor
+        dados.tbanmovimento.operacao = operacao
+        session.add(dados.tbanmovimento)
+        session.commit()
+
+    def cadastro_movimento_banco_nao_conciliado(self, conta, valor, operacao):
+        dados = Movimento()
+        dados.tbanmovimento.conta = conta
+        dados.tbanmovimento.valor = valor
+        dados.tbanmovimento.valordisponivel = valor
+        dados.tbanmovimento.operacao = operacao
+        session.add(dados.tbanmovimento)
+        session.commit()    
+
 class ManipularTela:
     def __init__(self, app):
         self.app = app

@@ -1,0 +1,1991 @@
+{
+	"1": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 1,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"2": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 2,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 100.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"3": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 3,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"4": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 4,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"5": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 5,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"6": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 6,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"7": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 7,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"8": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 8,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"9": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 9,
+			"docmaxdesconto": 100.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"10": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 10,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"11": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 11,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"12": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 12,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"13": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 13,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"14": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 14,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"15": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 15,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"16": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 16,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 100.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"17": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 17,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 100.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"18": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 18,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"19": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 19,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"20": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 20,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"21": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 21,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"23": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 23,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 100.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"24": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 24,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"25": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 25,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"26": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 26,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"27": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 27,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"28": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 28,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"29": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 29,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"30": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 30,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"31": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 31,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"32": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 32,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"33": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 33,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 100.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"34": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 34,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"35": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 35,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"36": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 36,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"37": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 37,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"38": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 38,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"39": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 39,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"40": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 40,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"41": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 41,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"42": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 42,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"43": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 43,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 100.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"44": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 44,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 100.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"45": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 45,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"46": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 46,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"47": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 47,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"48": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 48,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"49": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 49,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"50": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 50,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"51": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 51,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"52": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 52,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"53": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 53,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"54": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 54,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 100.000
+		}
+	},
+	"55": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 55,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"56": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 56,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"57": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 57,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"58": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 58,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"59": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 59,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"60": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 60,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"61": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 61,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"62": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 62,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"63": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 63,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"64": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 64,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"65": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 65,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"66": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 66,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"67": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 67,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"68": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 68,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"69": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 69,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"70": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 70,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"71": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 71,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"72": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 72,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"73": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 73,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"74": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 74,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"75": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 75,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"76": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 76,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"78": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 78,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"79": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 79,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"80": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 80,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"81": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 81,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"82": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 82,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"83": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 83,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"84": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 84,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"85": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 85,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"86": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 86,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"87": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 87,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"88": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 88,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"89": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 89,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"90": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 90,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"93": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 93,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"94": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 94,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"99": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 99,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"101": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 101,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"102": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 102,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"103": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 103,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"104": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 104,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"105": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 105,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"106": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 106,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"107": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 107,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"108": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 108,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"109": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 109,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"110": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 110,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"114": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 114,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"115": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 115,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"116": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 116,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"117": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 117,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"119": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 119,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"120": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 120,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"121": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 121,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"122": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 122,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"123": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 123,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"124": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 124,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"127": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 127,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"142": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 142,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"143": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 143,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"144": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 144,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"145": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 145,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	},
+	"146": {
+		"TGERBLOQUEIOUSUARIO": {
+			"empresa": "01",
+			"usuario": "TESTCOMPLETE",
+			"motivo": 146,
+			"docmaxdesconto": 0.00,
+			"docmaxjuro": 0.00,
+			"docmaxmulta": 0.00,
+			"vdamaxdesconto": 0.00,
+			"docmaxjurocap": 0.00,
+			"temautonomia": "S",
+			"permaxlimitecredito": 0.00,
+			"percedicaopreco": 0.000000,
+			"percdescatacado": 0.000,
+			"percmaxdescquitacaocheque": 0.000
+		}
+	}
+}

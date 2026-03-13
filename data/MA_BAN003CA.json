@@ -1,0 +1,44 @@
+{
+	"TBANOPERACAO": {
+		"codigo": "01",
+		"descricao": "TESTE",
+		"tipo": "D",
+		"possuicomplemento": "S",
+		"possuiconciliacao": "S",
+		"possuivencimento": "S",
+		"usuario": "SUPERVISOR",
+		"codigoagrup": null,
+		"codigocc": null,
+		"operusacc": null,
+		"gid": 1,
+		"ativo": 1
+	},
+	"TBANOPERACAOCREDITO": {
+		"codigo": "01",
+		"descricao": "TESTE",
+		"tipo": "C",
+		"possuicomplemento": "S",
+		"possuiconciliacao": "S",
+		"possuivencimento": "S",
+		"usuario": "SUPERVISOR",
+		"codigoagrup": null,
+		"codigocc": null,
+		"operusacc": null,
+		"gid": 1,
+		"ativo": 1
+	},
+	"TBANOPERACAOECOBRANCA": {
+		"codigo": "01",
+		"descricao": "TARIFA BANCARIA",
+		"tipo": "D",
+		"possuicomplemento": "N",
+		"possuiconciliacao": "N",
+		"possuivencimento": "N",
+		"usuario": "SUPERVISOR",
+		"codigoagrup": null,
+		"codigocc": 111116,
+		"operusacc": "S",
+		"gid": 1,
+		"ativo": 1
+	}
+}

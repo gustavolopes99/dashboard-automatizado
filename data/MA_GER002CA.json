@@ -1,0 +1,24 @@
+{
+	"CIDADE_EXTERIOR_001":{
+		"TGERCIDADE": {
+			"nome" : "GUANGZHOU",
+			"ceppadrao" : "",
+			"ddd" : "",
+			"estado" : "EX",
+			"usuario" : "TESTCOMPLETE",
+			"codigonacional" : null,
+			"issqn" : null,
+			"tipocidade" : "M",
+			"idpais" : 1600,
+			"codigoibge" : 9999999,
+			"ajusteprecopda" : 0.0000,
+			"idalteracao" : 0,
+			"idenviopaf" : 0
+		},
+		"TGERCIDADEISSQN": {
+			"empresa" : "01",
+			"issqn" : 0.000000,
+			"minimoretencao" : 0.00
+		}
+	}
+}

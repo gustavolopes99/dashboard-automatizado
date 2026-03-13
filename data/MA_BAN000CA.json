@@ -1,0 +1,14 @@
+{
+	"TBANBANCO": {
+		"gid": 0,
+		"numero": "001",
+		"digito": "0",
+		"nome": "BANCO",
+		"taxanegcheque": 0.00,
+		"definicaocheque": "",
+		"usuario": "SUPERVISOR",
+		"idalteracao": 1,
+		"idenviopaf": 0,
+		"datahoraalteracao": "NOW"
+	}
+}
